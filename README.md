@@ -37,10 +37,11 @@ JPN reg, lineAdress
 JPN R1, 32 jumps to line 32 of the program if the value of R1 is zero or smaller.
 New example for clarification
 SUB R1, R2 subtracts the value of register 2 from register 1 and puts the result into register 1
-
+-------------------
 HLT
 halts the program and prints on the screen the contents of all registers as well as the the memory.Your program will run using the same command line parameters as HW1. However, we have a new
 option
+------------------
 
 Operator[] that takes an integer and works like the getLine function. It returns the program
 line as a string.
