@@ -1,0 +1,37 @@
+Mov r1 ,       1 ; R1 degerine 1  atandi ve 1 in karesi bulundu
+mov r2 , r1 
+add r2 , r2
+mov      r3 , r2 
+add r3 , r1
+add r2 , r2  ;2 nin karesi bulundu 
+mov r5 , r2
+add r5  ,      r1  ; R5 in degeri 5 oldu
+add r3 , r3
+add r3 ,     r2
+sub r3    , r1 ; 3 un karesi bulundu
+mov r4 , r2
+add r4 , r4
+add r4 , r4 ; 4 un karesi bulundu 
+add r2 , r4 ; iki ile dordun karesi r2 de toplandi
+add r4 , r4
+add r4 , r4 ; 8 in karesi bulundu 
+add r5 , r2 ; 5'in karesi bulundu - r2 degeri 20 r5'e eklendi
+add r2 , r5
+add r2 , r5 
+sub r2 , r1 ; 7 nin karesi bulunup r2 deki degere eklendi  
+add r2 , r5 ; 5in karesi(r5) r2 degerine eklendi 
+add r5 , r5
+add r5 , r5 ; 10un karesi bulundu 
+add r2 , r5 ; 10 un karesi r2 ye eklendi
+add r2 , r1 ; 1 in karesi r2 ye eklendi 
+add r2 , r3 ; 3 un karesi r2 ye eklendi 
+add r2 , r4 ; 8 ind karesi r2 ye eklendi
+sub r5 , r3 
+sub r5 , r3 
+sub r5 , r1 ; 9 un karesi bulundu 
+add r2 , r5 ; 9 un karesi r2 ye eklendi 
+add r3 , r3 
+add r3 , r3 ; 6 nın karesi bulundu 
+add r2 , r3 ; 6nın karesi r2 ye eklendi   
+prn r2 ; 1 den 10 a kadar olan sayilarin karelerinin toplamı (r2) ekrana basıldı
+HLT

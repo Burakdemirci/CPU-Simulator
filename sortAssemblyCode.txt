@@ -1,0 +1,108 @@
+mov #0, 30  ;ilk deger atamalari baslangic
+mov #1, 23  
+mov #2, 4
+mov #3, 56
+mov #4, 34
+mov #5, 56
+mov #6, 89
+mov #7, 32
+mov #8, 45
+mov #9, 25  ; ilk deger atamalari son. 10 deger atandi 
+mov r5, 9   ; Dongumuzun countu atandi 
+mov r4, r5  ; Dongumuzun countu atandi
+mov #0, r1  ; Registere #0'daki deger atandi
+mov #1, r2  ; Registere #1'deki deger atandi
+mov r3, r1  ; r1 in degeri degisecegi icin r3 ye atildi 
+sub r1, r2  ; Karsilastirma yapildi
+jpn r1, 20 
+mov r2, #0
+mov r3, #1
+sub r5, 1   ; Karsilastirmadan sonra count degeri 1 azaltildi 
+jmp r5, 94
+mov #1, r1  ; Registere #1'deki deger atandi
+mov #2, r2  ; Registere #2'daki deger atandi
+mov r3, r1
+sub r1, r2
+jpn r1, 29
+mov r2, #1
+mov r3, #2
+sub r5, 1    ; Karsilastirmadan sonra count degeri 1 azaltildi 
+jmp r5, 94 
+mov #2, r1   ; Registere #2'deki deger atandi
+mov #3, r2   ; Registere #3'teki deger atandi
+mov r3, r1
+sub r1, r2
+jpn r1, 38 
+mov r2, #2
+mov r3, #3
+sub r5, 1    ; Karsilastirmadan sonra count degeri 1 azaltildi 
+jmp r5, 94
+mov #3, r1   ; Registere #3'teki deger atandi
+mov #4, r2   ; Registere #4'deki deger atandi
+mov r3, r1
+sub r1, r2
+jpn r1, 47 
+mov r2, #3
+mov r3, #4
+sub r5, 1    ; Karsilastirmadan sonra count degeri 1 azaltildi 
+jmp r5, 94
+mov #4, r1   ; Registere #4'deki deger atandi
+mov #5, r2   ; Registere #5'deki deger atandi
+mov r3, r1
+sub r1, r2
+jpn r1, 56 
+mov r2, #4
+mov r3, #5
+sub r5, 1    ; Karsilastirmadan sonra count degeri 1 azaltildi 
+jmp r5, 94
+mov #5, r1   ; Registere #5'deki deger atandi
+mov #6, r2   ; Registere #6'daki deger atandi
+mov r3, r1
+sub r1, r2
+jpn r1, 65 
+mov r2, #5
+mov r3, #6
+sub r5, 1    ; Karsilastirmadan sonra count degeri 1 azaltildi 
+jmp r5, 94
+mov #6, r1   ; Registere #6'daki deger atandi
+mov #7, r2   ; Registere #7'deki deger atandi
+mov r3, r1
+sub r1, r2
+jpn r1, 74 
+mov r2, #6
+mov r3, #7
+sub r5, 1    ; Karsilastirmadan sonra count degeri 1 azaltildi 
+jmp r5, 94
+mov #7, r1   ; Registere #7'deki deger atandi
+mov #8, r2   ; Registere #8'deki deger atandi
+mov r3, r1    
+sub r1, r2    
+jpn r1, 83    
+mov r2, #7    
+mov r3, #8    
+sub r5, 1    ; Karsilastirmadan sonra count degeri 1 azaltildi 
+jmp r5, 94
+mov #8, r1   ; Registere #8'deki deger atandi
+mov #9, r2   ; Registere #9'daki deger atandi
+mov r3, r1
+sub r1, r2
+jpn r1, 92 
+mov r2, #8
+mov r3, #9
+sub r5, 1    ; Karsilastirmadan sonra count degeri 1 azaltildi 
+jpn r5, 94
+sub r4, 1    ;
+mov r5, R4   
+jmp r5, 98   ; Butun dongunun bitip bitmedigi kontrol edildi
+jmp 13
+prn #0       ; #0'in degeri  yazildi
+prn #1       ; #1'in degeri  yazildi
+prn #2       ; #2'in degeri  yazildi
+prn #3       ; #3'un degeri  yazildi
+prn #4       ; #4'un degeri  yazildi
+prn #5       ; #5'in degeri  yazildi
+prn #6       ; #6'nin degeri  yazildi
+prn #7       ; #7'nin degeri  yazildi
+prn #8       ; #8'in degeri  yazildi
+prn #9       ; #9'un degeri  yazildi
+HLT          ; Program bitti
