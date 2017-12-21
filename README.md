@@ -72,5 +72,5 @@ will also print the contents of the memory after each intruction execution.
 
 ![Alt text](https://github.com/Burakdemirci/CPU-Simulator/blob/master/test_1.jpg "TEST 1")
 ![Alt text](https://github.com/Burakdemirci/CPU-Simulator/blob/master/test_2.jpg "TEST 2")
-![Alt text](https://github.com/Burakdemirci/CPU-Simulator/blob/master/test_3.jpg "TEST 3")
+![Alt text](https://github.com/Burakdemirci/CPU-Simulator/blob/master/test_3.PNG "TEST 3")
 
